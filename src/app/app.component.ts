@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -38,13 +38,13 @@ export class MyApp {
     const pushObject: PushObject = this.push.init(options);
 
     pushObject.on('notification').subscribe((notification: any) => {
-      console.log('Received a notification', notification)
+      alert('Received a notification: ' + JSON.stringify(notification))
     });
     pushObject.on('registration').subscribe((registration: any) => {
-      console.log('Device registered', registration)
+      alert('Device registered: ' + JSON.stringify(registration))
     });
     pushObject.on('error').subscribe(error => {
-      console.error('Error with Push plugin', error)
+      alert('Error with Push plugin: ' + JSON.stringify(error))
     });
   }
 }
