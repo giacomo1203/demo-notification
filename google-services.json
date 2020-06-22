@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "983659404843",
+    "firebase_url": "https://selfie-war.firebaseio.com",
+    "project_id": "selfie-war",
+    "storage_bucket": "selfie-war.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983659404843:android:3d1562ddfd8d4e5118546e",
+        "android_client_info": {
+          "package_name": "com.demo.sbnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983659404843-buee7vckgch6t28jslnkhg7nnfc28gpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzAKJEvEzCAN5MmlRsO8xl6qzlYgGofGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983659404843-buee7vckgch6t28jslnkhg7nnfc28gpe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "983659404843-gjpcmkcl3rq5tl6s6or23qkm572h57cg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.demo.sb-notification"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983659404843:android:9bad1167bb7f5e2d",
+        "android_client_info": {
+          "package_name": "com.universalemoji.selfiewar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983659404843-buee7vckgch6t28jslnkhg7nnfc28gpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzAKJEvEzCAN5MmlRsO8xl6qzlYgGofGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983659404843-buee7vckgch6t28jslnkhg7nnfc28gpe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "983659404843-gjpcmkcl3rq5tl6s6or23qkm572h57cg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.demo.sb-notification"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
